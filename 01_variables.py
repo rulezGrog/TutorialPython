@@ -23,3 +23,24 @@ print(len(my_string_variable))
 # Variables en una sola línea. ¡Cuidado con abusar de esta sintaxis!
 name, surname, alias, age = "Gerardo", "Tarifa", 'rulez', 40
 print("Me llamo:", name, surname, ". Mi edad es:", age, ". Y mi alias es:", alias)
+
+# Inputs
+"""
+name = input('¿cual es tu nombre? ')
+age = input('¿Qué edad tienes? ')
+
+print(name)
+print(age)
+"""
+
+# Cambiamos su tipo
+
+name = 40
+age = "rulez"
+print(name)
+print(age)
+
+# ¿Forzamos el tipo? 
+address: str = "Mi dirección"
+address = 40
+print(type(address))
